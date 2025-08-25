@@ -1,0 +1,275 @@
+{
+  "@@locale": "en",
+  "appTitle": "Ello! Your Learning Companion",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "childNameHint": "Enter child's name",
+  "@childNameHint": {
+    "description": "Placeholder text for child name input"
+  },
+  "startingSession": "Starting your learning session...",
+  "@startingSession": {
+    "description": "Loading message when starting session"
+  },
+  "connected": "Connected",
+  "@connected": {
+    "description": "LiveKit connection status - connected"
+  },
+  "offlineMode": "Offline Mode",
+  "@offlineMode": {
+    "description": "LiveKit connection status - offline"
+  },
+  "welcomeTagline": "Lets learn about colors together!",
+  "@welcomeTagline": {
+    "description": "Welcome screen tagline"
+  },
+  "childNameLabel": "Child's Name",
+  "@childNameLabel": {
+    "description": "Label for child name input field"
+  },
+  "parentEmailLabel": "Parent's Email",
+  "@parentEmailLabel": {
+    "description": "Label for parent email input field"
+  },
+  "parentEmailHintText": "Enter parent's email for progress report",
+  "@parentEmailHintText": {
+    "description": "Hint text for parent email input field"
+  },
+  "childNameValidation": "Please enter child's name",
+  "@childNameValidation": {
+    "description": "Validation message for child name field"
+  },
+  "parentEmailValidation": "Please enter a valid email",
+  "@parentEmailValidation": {
+    "description": "Validation message for parent email field"
+  },
+  "startLearningSessionButton": "Start Learning Session! 🎨",
+  "@startLearningSessionButton": {
+    "description": "Text for start learning session button"
+  },
+  "learningDescription": "We'll learn about primary colors and then test what you learned!",
+  "@learningDescription": {
+    "description": "Description of what the learning session will cover"
+  },
+  "endLearningSession": "End Learning Session",
+  "@endLearningSession": {
+    "description": "Title for end session dialog"
+  },
+  "endSessionConfirmation": "Are you sure you want to end this session?",
+  "@endSessionConfirmation": {
+    "description": "Confirmation message for ending session"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  "endSession": "End Session",
+  "@endSession": {
+    "description": "End session button text"
+  },
+  "failedToConnect": "Failed to connect to session",
+  "@failedToConnect": {
+    "description": "Error message when connection fails"
+  },
+  "transcriptionPlaceholder": "Transcriptions will appear here when the AI agent speaks.\n\nNote: This requires the backend AI agent to be running and connected to the same LiveKit room.",
+  "@transcriptionPlaceholder": {
+    "description": "Placeholder text shown in transcription area"
+  },
+  "mute": "Mute",
+  "@mute": {
+    "description": "Label for mute microphone button"
+  },
+  "unmute": "Unmute",
+  "@unmute": {
+    "description": "Label for unmute microphone button"
+  },
+  "microphoneStatus": "Microphone is {status}. Tap to toggle.",
+  "@microphoneStatus": {
+    "description": "Status message showing microphone state",
+    "placeholders": {
+      "status": {
+        "type": "String",
+        "example": "enabled"
+      }
+    }
+  },
+  "enabled": "enabled",
+  "@enabled": {
+    "description": "Status text for enabled state"
+  },
+  "disabled": "disabled",
+  "@disabled": {
+    "description": "Status text for disabled state"
+  },
+  "waitingForConnection": "Waiting for connection...",
+  "@waitingForConnection": {
+    "description": "Status message while waiting for connection"
+  },
+  "learningWithTitleEmoji": "🌈 Learning with {childName}",
+  "@learningWithTitleEmoji": {
+    "description": "Learning session screen title with emoji",
+    "placeholders": {
+      "childName": {
+        "type": "String",
+        "example": "Alice"
+      }
+    }
+  },
+  "startingSessionWithEmoji": "🎨✨ Starting your learning session...",
+  "@startingSessionWithEmoji": {
+    "description": "Loading message with emojis"
+  },
+  "connectionErrorEmoji": "😟 Connection Error",
+  "@connectionErrorEmoji": {
+    "description": "Connection error title with emoji"
+  },
+  "retryEmoji": "🔄 Retry Connection",
+  "@retryEmoji": {
+    "description": "Retry button with emoji"
+  },
+  "aiTeacherTitle": "🎨 AI Art Teacher! 🎨",
+  "@aiTeacherTitle": {
+    "description": "AI teacher title with art emojis"
+  },
+  "connectedWithEmoji": "✨ Connected",
+  "@connectedWithEmoji": {
+    "description": "Connected status with emoji"
+  },
+  "offlineModeWithEmoji": "⏳ Offline Mode",
+  "@offlineModeWithEmoji": {
+    "description": "Offline status with emoji"
+  },
+  "transcriptionPlaceholderWithEmoji": "💬✨ Transcriptions will appear here when the AI agent speaks.\n\nNote: This requires the backend AI agent to be running and connected to the same LiveKit room.",
+  "@transcriptionPlaceholderWithEmoji": {
+    "description": "Transcription placeholder with emojis"
+  },
+  "invalidEmailValidation": "Please enter a valid email address",
+  "@invalidEmailValidation": {
+    "description": "Validation message for invalid email format"
+  },
+  "formValidationError": "Please fix the errors above before continuing.",
+  "@formValidationError": {
+    "description": "General form validation error message"
+  },
+  "genericError": "Something went wrong. Please try again.",
+  "@genericError": {
+    "description": "Generic error message for unexpected errors"
+  },
+  "changeUser": "Change User",
+  "@changeUser": {
+    "description": "Title for change user dialog"
+  },
+  "changeUserConfirmation": "This will clear the saved user data and return to the welcome screen. Continue?",
+  "@changeUserConfirmation": {
+    "description": "Confirmation message for changing user"
+  },
+  "continueAction": "Continue",
+  "@continueAction": {
+    "description": "Continue button text for confirmations"
+  },
+  "nameMinLengthValidation": "Name must be at least {minLength} characters long",
+  "@nameMinLengthValidation": {
+    "description": "Validation message for name minimum length",
+    "placeholders": {
+      "minLength": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "nameMaxLengthValidation": "Name must be less than {maxLength} characters long",
+  "@nameMaxLengthValidation": {
+    "description": "Validation message for name maximum length",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "aiTeacherEmoji": "🎨",
+  "@aiTeacherEmoji": {
+    "description": "Emoji for AI teacher"
+  },
+  "connectedEmoji": "✅",
+  "@connectedEmoji": {
+    "description": "Emoji for connected status"
+  },
+  "offlineEmoji": "❌",
+  "@offlineEmoji": {
+    "description": "Emoji for offline status"
+  },
+  "sadEmoji": "😢",
+  "@sadEmoji": {
+    "description": "Emoji for sad/error state"
+  },
+  "loadingEmojis": "⏳✨",
+  "@loadingEmojis": {
+    "description": "Emojis for loading state"
+  },
+  "transcriptionEmojis": "💬📝",
+  "@transcriptionEmojis": {
+    "description": "Emojis for transcription area"
+  },
+  "sandboxIdNotSet": "Sandbox ID is not set",
+  "@sandboxIdNotSet": {
+    "description": "Error when LIVEKIT_SANDBOX_ID is not configured"
+  },
+  "sandboxIdNotSetDebug": "LIVEKIT_SANDBOX_ID is not set in environment variables",
+  "@sandboxIdNotSetDebug": {
+    "description": "Debug message when sandbox ID is not set"
+  },
+  "usingSandboxId": "Using sandbox ID: {sandboxId}",
+  "@usingSandboxId": {
+    "description": "Debug message showing sandbox ID being used",
+    "placeholders": {
+      "sandboxId": {
+        "type": "String",
+        "example": "sandbox-123"
+      }
+    }
+  },
+  "errorParsingConnectionDetails": "Error parsing connection details from LiveKit: {error}",
+  "@errorParsingConnectionDetails": {
+    "description": "Error when parsing LiveKit response fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Invalid JSON format"
+      }
+    }
+  },
+  "liveKitApiError": "LiveKit API Error {statusCode}: {errorBody}",
+  "@liveKitApiError": {
+    "description": "Error from LiveKit API with status code and response",
+    "placeholders": {
+      "statusCode": {
+        "type": "int",
+        "example": "404"
+      },
+      "errorBody": {
+        "type": "String",
+        "example": "Not found"
+      }
+    }
+  },
+  "networkConnectionFailed": "Network connection failed. Check your internet connection.",
+  "@networkConnectionFailed": {
+    "description": "Error when network connection fails"
+  },
+  "requestTimedOut": "Request timed out. LiveKit service may be unavailable.",
+  "@requestTimedOut": {
+    "description": "Error when request times out"
+  },
+  "failedToConnectToLiveKit": "Failed to connect to LiveKit Cloud sandbox: {error}",
+  "@failedToConnectToLiveKit": {
+    "description": "General connection error to LiveKit",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Connection refused"
+      }
+    }
+  }
+}
