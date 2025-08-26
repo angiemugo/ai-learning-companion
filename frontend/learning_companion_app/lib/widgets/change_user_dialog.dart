@@ -30,10 +30,7 @@ class ChangeUserDialog extends StatelessWidget {
       await _repository.clearData();
 
       if (context.mounted) {
-        Navigator.of(context).pushNamedAndRemoveUntil(
-          '/',
-          (route) => false,
-        );
+        Navigator.of(context).popUntil((route) => route.isFirst);
       }
     } catch (e) {
       if (context.mounted) {

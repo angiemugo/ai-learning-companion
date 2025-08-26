@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:learning_companion_app/welcome_screen/welcome_screen.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'widgets/app_router.dart';
 import 'package:learning_companion_app/l10n/app_localizations.dart';
 import 'utils/app_colors.dart';
 
@@ -161,7 +161,7 @@ class LearningCompanionApp extends StatelessWidget {
       supportedLocales: const [
         Locale('en'),
       ],
-      home: const AppRouter(),
+      home: const WelcomeScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

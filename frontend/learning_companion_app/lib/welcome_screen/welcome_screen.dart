@@ -28,7 +28,16 @@ class _WelcomeScreenState extends ConsumerState<WelcomeScreen> {
       final formState = ref.read(welcomeFormProvider);
       _childNameController.text = formState.childName;
       _parentEmailController.text = formState.parentEmail;
-    });
+       if (formState.childName.isNotEmpty && formState.parentEmail.isNotEmpty) {
+
+        Navigator.of(context).pushReplacement(
+          MaterialPageRoute(
+            builder: (_) => LearningSessionScreen(childName: formState.childName, parentEmail: formState.parentEmail,), 
+          ),
+        );
+    }
+        });
+
   }
 
   @override

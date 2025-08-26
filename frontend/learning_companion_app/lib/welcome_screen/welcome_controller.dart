@@ -7,6 +7,23 @@ final welcomeFormProvider =
   return WelcomeFormNotifier();
 });
 
+final savedUserDataProvider = FutureProvider<Map<String, String>?>((ref) async {
+  final repository = SharedPrefsRepository();
+  final childName = await repository.getChildName();
+  final parentEmail = await repository.getParentEmail();
+
+  if (childName != null &&
+      childName.isNotEmpty &&
+      parentEmail != null &&
+      parentEmail.isNotEmpty) {
+    return {
+      'childName': childName,
+      'parentEmail': parentEmail,
+    };
+  }
+  return null;
+});
+
 class WelcomeFormNotifier extends StateNotifier<WelcomeFormState> {
   final SharedPrefsRepository _repository = SharedPrefsRepository();
 
